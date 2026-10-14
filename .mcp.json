@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "moonraker": {"type":"http","url":"https://agent.moonraker.ai/claude/mcp"}
+  }
+}

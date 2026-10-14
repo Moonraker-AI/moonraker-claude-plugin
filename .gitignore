@@ -1,0 +1,15 @@
+# Secrets and local state
+.env
+.env.*
+*.pem
+*.key
+# OS and build output
+.DS_Store
+Thumbs.db
+node_modules/
+__pycache__/
+*.log
+# Agent scratch and private evidence
+evidence/
+dist/
+.claude/settings.local.json

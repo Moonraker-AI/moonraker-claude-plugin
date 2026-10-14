@@ -1,0 +1,23 @@
+{
+  "name": "moonraker",
+  "displayName": "Moonraker",
+  "version": "0.1.2",
+  "description": "Six tools for practice visibility: AI Readiness, Listing Check, Page Clarity, Practice Website Audit, What Brings You In and Client Value.",
+  "author": {
+    "name": "Moonraker.AI",
+    "email": "support@moonraker.ai",
+    "url": "https://moonraker.ai"
+  },
+  "homepage": "https://moonraker.ai/tools",
+  "icon": "./assets/icon.png",
+  "keywords": [
+    "practice-marketing",
+    "website-checks",
+    "content-planning",
+    "client-value"
+  ],
+  "privacyPolicyUrl": "https://agent.moonraker.ai/claude/privacy",
+  "supportUrl": "https://agent.moonraker.ai/claude/privacy#contact",
+  "repository": "https://github.com/Moonraker-AI/moonraker-claude-plugin",
+  "license": "SEE LICENSE IN LICENSE"
+}
