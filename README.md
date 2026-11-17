@@ -1,10 +1,10 @@
 # Moonraker for Claude
 
-Know what to improve next. Six practice-marketing workflows for Claude chat, Cowork and Claude Code, using a hosted Moonraker connector and focused skills.
+Find out what needs attention on your practice website, check your public listings, plan useful content and estimate what a new client is worth. Moonraker combines six guided skills with a hosted connector for Claude chat, Cowork and Claude Code.
 
 ![Moonraker](assets/icon.png)
 
-Free public beta. The connector uses `https://agent.moonraker.ai/claude/mcp`.
+Free public beta. Published by Moonraker.AI, with support at support@moonraker.ai. The connector uses `https://agent.moonraker.ai/claude/mcp`.
 
 | Workflow | What it does |
 | --- | --- |
@@ -17,11 +17,24 @@ Free public beta. The connector uses `https://agent.moonraker.ai/claude/mcp`.
 
 ## Install
 
-Download the plugin ZIP from this repository's [Releases](https://github.com/Moonraker-AI/moonraker-claude-plugin/releases), then upload it through Claude's Customize > Plugins custom-upload option and connect Moonraker. No Moonraker account or API key is required. Anthropic directory availability is subject to its review.
+The public Claude Directory listing is not yet confirmed. Until it is published, install the plugin manually: download the plugin ZIP from this repository's [Releases](https://github.com/Moonraker-AI/moonraker-claude-plugin/releases), upload it through Claude's Customize > Plugins custom-upload option and connect Moonraker. No Moonraker account or API key is required. Claude plan and feature availability still apply.
 
 For Claude Code, clone this repository and run `claude --plugin-dir /absolute/path/to/moonraker-claude-plugin`. For the connector alone, add `https://agent.moonraker.ai/claude/mcp` as a custom connector; the bundle supplies the six guided skills and client-value formulas.
 
 The skills are `/moonraker:ai-readiness`, `/moonraker:listing-check`, `/moonraker:page-clarity`, `/moonraker:practice-audit`, `/moonraker:practice-questions` and `/moonraker:client-value`. You can also describe the task naturally. Client Value offers written calculation steps in chat and a link to the interactive website calculator.
+
+## Try a first request
+
+- "Check whether AI can read my public practice website. Explain what you need from me before starting."
+- "Compare my practice's public contact details across listings."
+- "Check whether pages on my website overlap and explain the evidence."
+- "Run a practice website audit and give me the priorities with a saved report."
+- "Show me the available professions and countries in What Brings You In, then help me choose questions for my website."
+- "Help me estimate what a new client is worth. Ask me for the assumptions."
+
+Start with one check. Claude will collect the details and permissions that check needs. Moonraker returns findings and reports; it does not edit your website or business listings. You decide which recommendations to act on.
+
+## Before a website check
 
 Website checks require the user's first name, email and explicit agreement to the free-tool newsletter offer. Listing Check and Practice Website Audit additionally require agreement to the report email. The question-library tools and conversational calculator do not subscribe anyone. No patient information, private portals or clinical advice is supported.
 
